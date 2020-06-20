@@ -1,0 +1,54 @@
+
+* {box-sizing: border-box;}
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  color: black;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 8px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topnav a:hover {
+  background-color: orange;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: blue;
+  color: white;
+}
+
+.topnav .login-container {
+  margin-top: 5px;
+  float: right;
+}
+
+.topnav .login-container button {
+  float: right;
+  padding: 1.7px;
+  margin-top: auto;
+  margin-right: 15px;
+  background-color: #555;
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .login-container button:hover {
+  background-color: #FF3333;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}

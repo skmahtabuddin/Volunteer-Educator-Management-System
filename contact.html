@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body,html {
+  box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  margin: auto;
+  padding: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+@media screen and (max-width: 400px) {
+  .column {
+    width: 50%;
+    display: circle;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding-bottom:50px;
+  background:#fff;
+}
+img {
+  width: 50%;
+  height: 350px;
+}
+.container {
+  padding: 0 16px;
+}
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.content{
+  position:absolute;
+  top:0;
+  bottom:0;
+  z-index:9999;
+}
+</style>
+</head>
+<body style="">
+ 
+ <div class="wrapper">
+   
+ </div>
+ <div class="content">
+   <h2 style="padding:20px 0px 20px 20px;background:#fff">MEET THE TEAM</h2>
+  <br>
+
+  <div class="row">
+    <div class="column" style="">
+      <div class="card" style="">
+        <img src="css/img/akash.jpeg" alt="Jane" style="width:100%">
+        <div class="container">
+          <h2>Sk Aakash</h2>
+          <p class="title">CEO & Founder</p>
+          <p>Lets have a cup of coffee</p>
+          <p>sk.aakash@yahoo.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="css/img/toma.jpeg" alt="John" style="width:100%">
+        <div class="container">
+          <h2>Farzana Toma</h2>
+          <p class="title">Designer</p>
+          <p>Eat, Sing, Sleep</p>
+          <p>farzanatoma@gmail.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="css/img/suma.jpeg" alt="Mike" style="width:100%">
+        <div class="container">
+          <h2>Mushtari Suma</h2>
+          <p class="title">Art Director</p>
+          <p>Single, ready to mingle</p>
+          <p>mushtarisuma@gmail.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  <div class="column">
+      <div class="card">
+        <img src="css/img/bro.jpg" alt="John" style="width:100%">
+        <div class="container">
+          <h2>Tanvir Joy</h2>
+          <p class="title">Developer</p>
+          <p>Love watching movies and TV </p>
+          <p>tanvirjoy@gmail.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+  <div class="column">
+      <div class="card">
+        <img src="css/img/rifat.jpeg" alt="John" style="width:100%">
+        <div class="container">
+          <h2>Al Rifatul Islam</h2>
+          <p class="title">Designer</p>
+          <p>Love to travel</p>
+          <p>rifat@gmail.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ </div>
+
+
+</body>
+</html>
